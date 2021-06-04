@@ -1,13 +1,13 @@
-# syslog
+# Syslog Configuration
 
-Test syslog configuration
+## Test syslog configuration
 
-## Using Netcat
+### Using Netcat
 ```bash
 echo "message" | nc -q0 127.0.0.1 514
 ```
 
-## Using Logger
+### Using Logger
 ```bash
 logger "test message
 ```
