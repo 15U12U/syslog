@@ -2,16 +2,16 @@
 
 ## Syslog Facility Levels
 
-| Number 	| Keyword  	| Facility description                     	|
-|:------:	|:---------	|:-----------------------------------------	|
-| 0      	| kern     	| kernel messages                          	|
-| 1      	| user     	| user-level messages                      	|
-| 2      	| mail     	| mail system                              	|
-| 3      	| daemon   	| system daemons                           	|
-| 4      	| auth     	| security/authorization messages          	|
-| 5      	| syslog   	| messages generated internally by syslogd 	|
-| 6      	| lpr      	| line printer subsystem                   	|
-| 7      	| news     	| network news subsystem                   	|
+| Number 	| Keyword  	| Facility description                     	|    | Code 	| Severity      	| Keyword        	| Description                       	|
+|:------:	|:---------	|:-----------------------------------------	|    |------	|---------------	|----------------	|-----------------------------------	|
+| 0      	| kern     	| kernel messages                          	|    | 0    	| Emergency     	| emerg (panic)  	| System is unusable.               	|
+| 1      	| user     	| user-level messages                      	|    | 1    	| Alert         	| alert          	| Action must be taken immediately. 	|
+| 2      	| mail     	| mail system                              	|    | 2    	| Critical      	| crit           	| Critical conditions.              	|
+| 3      	| daemon   	| system daemons                           	|    | 3    	| Error         	| err (error)    	| Error conditions.                 	|
+| 4      	| auth     	| security/authorization messages          	|    | 4    	| Warning       	| warning (warn) 	| Warning conditions.               	|
+| 5      	| syslog   	| messages generated internally by syslogd 	|    | 5    	| Notice        	| notice         	| Normal but significant condition. 	|
+| 6      	| lpr      	| line printer subsystem                   	|    | 6    	| Informational 	| info           	| Informational messages.           	|
+| 7      	| news     	| network news subsystem                   	|    | 7    	| Debug         	| debug          	| Debug-level messages.             	|
 | 8      	| uucp     	| UUCP subsystem                           	|
 | 9      	| –        	| clock daemon                             	|
 | 10     	| authpriv 	| security/authorization messages          	|
