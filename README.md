@@ -43,6 +43,11 @@
 | 7    	| Debug         	| debug          	| Debug-level messages.             	|
 
 ## Test syslog configuration
+```bash
+rsyslogd -N 5
+```
+
+## Test syslog forwarding
 
 ### Using Netcat
 ```bash
